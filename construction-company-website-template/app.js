@@ -388,12 +388,9 @@ const imageMap = {
     }
   }
 };
-
-
-  
   const applyFiltersButton = document.getElementById("applyFilters");
   const imageContainer = document.getElementById("imageContainer");
-  
+ 
   applyFiltersButton.addEventListener("click", () => {
       const selectedCity = document.getElementById("city").value;
       const selectedPropertyType = document.getElementById("propertyType").value;
